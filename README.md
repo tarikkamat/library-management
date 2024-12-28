@@ -1,1 +1,3 @@
-# library-management
+# Library Management
+
+This project, 
