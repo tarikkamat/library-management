@@ -40,21 +40,21 @@ npx sequelize db:seed:all
 Getting user list with ids and names
 
 ```http
-  GET /users
+  GET /api/users
 ```
 
 ### Get User
 Getting a user with no borrow history or his past and current book borrow list
 
 ```http
-  GET /users/${id}
+  GET /api/users/${id}
 ```
 
 ### Create User
 Getting a user with no borrow history or his past and current book borrow list
 
 ```http
-  POST /users
+  POST /api/users
 ```
 
 | Parameter | Type     |
@@ -65,21 +65,21 @@ Getting a user with no borrow history or his past and current book borrow list
 Getting book list
 
 ```http
-  GET /books
+  GET /api/books
 ```
 
 ### Get Book
 Getting a book with its average user score or is not scored yet
 
 ```http
-  GET /books/${id}
+  GET /api/books/${id}
 ```
 
 ### Create Book
 Creating a book
 
 ```http
-  POST /books
+  POST /api/books
 ```
 
 | Parameter | Type     |
@@ -90,14 +90,14 @@ Creating a book
 User borrowed a book succesfully
 
 ```http
-  POST /users/${userId}/barrow/${bookId}
+  POST /api/users/${userId}/barrow/${bookId}
 ```
 
 ### Return Book
 User returning a book with his score
 
 ```http
-  POST /users/${userId}/return/${bookId}
+  POST /api/users/${userId}/return/${bookId}
 ```
 
 | Parameter | Type     |
