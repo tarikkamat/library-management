@@ -1,10 +1,33 @@
 {
   "dependencies": {
+    "body-parser": "^1.20.3",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "express-validator": "^7.2.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
     "pg": "^8.13.1",
     "pg-hstore": "^2.3.4",
+    "process": "^0.11.10",
     "sequelize": "^6.37.5",
     "sequelize-cli": "^6.6.2"
-  }
+  },
+  "name": "library-management-app",
+  "description": "This project provides a RESTful API to manage users, books, and borrowing/returning relationships in a library system. Built with Node.js, Express, and Sequelize ORM, it supports CRUD operations. ## Installation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarikkamat/library-management.git"
+  },
+  "author": "Tarik KAMAT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarikkamat/library-management/issues"
+  },
+  "homepage": "https://github.com/tarikkamat/library-management#readme"
 }
