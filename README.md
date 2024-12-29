@@ -1,9 +1,8 @@
 
 # Library Management
-
 This project provides a RESTful API to manage users, books, and borrowing/returning relationships in a library system. Built with Node.js, Express, and Sequelize ORM, it supports CRUD operations.
-## Installation
 
+## Installation
 Clone the project
 
 ```bash
@@ -32,6 +31,15 @@ If you want, you can seed with dummy information.
 
 ```bash
 npx sequelize db:seed:all
+```
+
+## Docker Installation
+Make sure Docker Desktop is installed and running on your machine.
+
+```bash
+  make start
+  make migrate
+  make seed
 ```
 
 ## API Usage
