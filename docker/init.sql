@@ -1,0 +1,2 @@
+CREATE DATABASE library_db;
+GRANT ALL PRIVILEGES ON DATABASE library_db TO postgres;
